@@ -1,33 +1,32 @@
-.colors-container{
+.colors-container {
   margin: 0px auto;
   display: flex;
   max-width: 600px;
-
 }
-.para{
+.para {
   text-align: center;
   font-size: 30px;
-  color:crimson;
+  color: crimson;
   font-weight: 700;
 }
-.color-Blocks{
+.color-Blocks {
   margin: 0px auto;
   width: 500px;
   height: 20px;
   margin-top: 5px;
   border-radius: 5px;
 }
-.header{
+.header {
   text-align: center;
 }
-.main-container{
+.main-container {
   min-height: 70vh;
 }
-.container{
+.container {
   display: flex;
   justify-content: center;
 }
-input{
+input {
   outline: none;
   width: 200px;
   border-radius: 5px;
@@ -35,15 +34,14 @@ input{
   font-weight: bolder;
   transition: width 0.3s;
 }
-input:focus{
-  border:none;
+input:focus {
+  border: none;
   width: 205px;
   outline: 3px solid blue;
- 
 }
 
-@media screen and (max-width:768px) {
-  .color-Blocks{
+@media screen and (max-width: 768px) {
+  .color-Blocks {
     margin: 0px auto;
     width: 300px;
     height: 20px;
